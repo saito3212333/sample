@@ -1,13 +1,13 @@
 from random import shuffle
 
-import card
+import Card
 
 class Deck:
 	def __init__(self):
 		self.cards = []
 		for i in range(2,15):
 			for j in range(4):
-				self.cards.append(card.Card(i,j))
+				self.cards.append(Card.Card(i,j))
 		shuffle(self.cards)
 		
 	def rm_card(self):
