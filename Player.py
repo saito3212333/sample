@@ -3,4 +3,3 @@ class Player:
 		self.wins = 0
 		self.card = None
 		self.name = name
-		
