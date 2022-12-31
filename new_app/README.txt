@@ -1,0 +1,3 @@
+finally,I noticed it.
+Mac doesn't use OCR library.
+i was so sad...
