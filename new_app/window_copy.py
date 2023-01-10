@@ -1,13 +1,13 @@
 import PySimpleGUI as sg
 
 
-# ウィンドウのテーマ
+ウィンドウのテーマ
 sg.theme('DarkRed')
-filename='new_app/test1.png'
+# filename='new_app/test1.png'
 # ウィンドウのレイアウト
 layout = [
-        [sg.Image(filename)]
-    ]
+    [sg.Image(filename='new_app/test1.png')]
+]
 
 # ウィンドウオブジェクトの作成
 window = sg.Window('title', layout, size=(1600, 1500))
